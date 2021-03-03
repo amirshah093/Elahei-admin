@@ -214,7 +214,7 @@ export default class Home extends Component {
                                                                             row.status === "processing" ? <span className="badge-item badge-primary">{row.status}</span> : row.status === "shipping" ? <span className="badge-item badge-info">{row.status}</span> : row.status === "delieverd" ? <span className="badge-item badge-success">{row.status}</span> : <span className="badge-item badge-danger">{row.status}</span>
                                                                         }
                                                                     </td>
-                                                                    <td>&#8377;{row.grandtotal}</td>
+                                                                    <td>&#36;{row.grandtotal}</td>
                                                                     <td className="action-btns">
                                                                         <Link className="views-btn" to={{
                                                                             pathname: `/admin/order/view/${row.id}`,
@@ -254,7 +254,7 @@ export default class Home extends Component {
                 <footer className="py-4 bg-footer mt-auto">
                     <div className="container-fluid">
                         <div className="d-flex align-items-center justify-content-between small">
-                            <div className="text-muted-1">© 2021 <b>elahei.com</b>. by <a >SHAHhost.com</a></div>
+                            <div className="text-muted-1">© 2021 <b>elahei.com</b>. by <a href="https://shahhost.com">SHAHhost.com</a></div>
                             <div className="footer-links">
                                 <a href="/">Privacy Policy</a>
                                 <a href="/">Terms &amp; Conditions</a>

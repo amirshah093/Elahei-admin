@@ -86,9 +86,9 @@ export default class View extends Component {
                                                                                         <td>
                                                                                             {p.name}
                                                                                         </td>
-                                                                                        <td className="text-center">&#8377;{p.price}</td>
+                                                                                        <td className="text-center">&#36;{p.price}</td>
                                                                                         <td className="text-center">{p.qty}</td>
-                                                                                        <td className="text-center">&#8377;{p.total}</td>
+                                                                                        <td className="text-center">&#36;{p.total}</td>
                                                                                     </tr>
                                                                                 ))
                                                                             );
@@ -106,7 +106,7 @@ export default class View extends Component {
                                                             Sub Total
                                                     </div>
                                                         <div className="order-total-right-text">
-                                                            &#8377;{self.grandtotal}
+                                                            &#36;{self.grandtotal}
                                                         </div>
                                                     </div>
                                                     <div className="order-total-dt">
@@ -114,7 +114,7 @@ export default class View extends Component {
                                                             Delivery Fees
                                                     </div>
                                                         <div className="order-total-right-text">
-                                                            &#8377;Free
+                                                            &#36;Free
                                                     </div>
                                                     </div>
                                                     <div className="order-total-dt">
@@ -122,7 +122,7 @@ export default class View extends Component {
                                                             Total Amount
                                                     </div>
                                                         <div className="order-total-right-text fsz-18">
-                                                            &#8377;{self.grandtotal}
+                                                            &#36;{self.grandtotal}
                                                         </div>
                                                     </div>
                                                 </div>

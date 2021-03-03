@@ -1,7 +1,4 @@
-const API_URL =
-    document.domain === 'localhost'
-    ? "http://localhost:4000"
-    : "production";
+const API_URL = "https://shaheeronline.com";
 
 const Apis = {
   //Authentication api

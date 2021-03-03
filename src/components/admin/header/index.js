@@ -6,7 +6,7 @@ export default class Header extends Component {
         return (
             <div>
                 <nav className="sb-topnav navbar navbar-expand navbar-light bg-clr">
-                    <a className="navbar-brand logo-brand" href="/">Shaheer Online</a>
+                    <a className="navbar-brand logo-brand" href="/">Elahei Online</a>
                     <button className="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" ><i className="fas fa-bars" /></button>
                     <a href="/" className="frnt-link"><i className="fas fa-external-link-alt" />Home</a>
                     <ul className="navbar-nav ml-auto mr-md-0">
